@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff4a1e03-420a-4828-9829-8bd1f3a767c2" name="Changes" comment="">
+    <list default="true" id="ff4a1e03-420a-4828-9829-8bd1f3a767c2" name="Changes" comment="add Tests and methods for password validation">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -25,10 +39,118 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.neuefische" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MainTest.returnsTrue_whenSpacialCharactersAreIncluded">
+    <configuration name="MainTest.returnTrue_whenNumbersAreIncluded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="passwordvalidation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.MainTest" />
+      <option name="METHOD_NAME" value="returnTrue_whenNumbersAreIncluded" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.returnTrue_whenUpperAndLowerCaseIsIncluded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="passwordvalidation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.MainTest" />
+      <option name="METHOD_NAME" value="returnTrue_whenUpperAndLowerCaseIsIncluded" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.returnTrue_whenUpperAndLowercaseIsIncluded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="passwordvalidation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.MainTest" />
+      <option name="METHOD_NAME" value="returnTrue_whenUpperAndLowercaseIsIncluded" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.returnsFalse_whenUnsafePwIsUsed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="passwordvalidation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.MainTest" />
+      <option name="METHOD_NAME" value="returnsFalse_whenUnsafePwIsUsed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.returnsTrue_whenSpacialCharactersAreIncluded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="passwordvalidation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.MainTest" />
+      <option name="METHOD_NAME" value="returnsTrue_whenSpacialCharactersAreIncluded" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MainTest.returnsTrue_whenSpacialCharactersAreIncluded" />
+        <item itemvalue="JUnit.MainTest.returnsFalse_whenUnsafePwIsUsed" />
+        <item itemvalue="JUnit.MainTest.returnTrue_whenUpperAndLowercaseIsIncluded" />
+        <item itemvalue="JUnit.MainTest.returnTrue_whenUpperAndLowerCaseIsIncluded" />
+        <item itemvalue="JUnit.MainTest.returnTrue_whenNumbersAreIncluded" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,7 +159,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699260307844</updated>
+      <workItem from="1699260308829" duration="10398000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add Tests and methods for password validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Tests and methods for password validation" />
   </component>
 </project>
