@@ -51,5 +51,15 @@ class MainTest {
         assertTrue(actual);
     }
 
+    @Test
+    void returnsTrue_whenSpacialCharactersAreIncluded() {
+        //GIVEN
+        String input = Main.inputPassword;
+        //WHEN
+        boolean actual = Main.checkForSpecialCharacters(input);
+        //THEN
+        assertTrue(actual);
+    }
+
 
 }

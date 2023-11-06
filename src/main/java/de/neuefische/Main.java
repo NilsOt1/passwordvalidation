@@ -2,7 +2,7 @@ package de.neuefische;
 
 public class Main {
 
-    static String inputPassword = "Passwords";
+    static String inputPassword = "Passwords.";
 
     public static void main(String[] args) {
 
@@ -64,7 +64,6 @@ public class Main {
     }
 
 
-
     public static boolean checkForUnsafePasswords(String input) {
         String[] unsafePasswords = {"Password", "password", "12345678"};
         for (String word : unsafePasswords) {
@@ -85,8 +84,16 @@ public class Main {
 
      */
 
+    public static boolean checkForSpecialCharacters(String input) {
+        for (int i = 0; i < input.length(); i++) {
+            char c = input.charAt(i);
+            if (!Character.isLetterOrDigit(c)) {
+                return true;
+            }
 
-
+        }
+        return false;
+    }
 }
 
 

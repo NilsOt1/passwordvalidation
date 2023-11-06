@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff4a1e03-420a-4828-9829-8bd1f3a767c2" name="Changes" comment="add Tests and methods for password validation">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/neuefische/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,8 +157,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699260307844</updated>
-      <workItem from="1699260308829" duration="10398000" />
+      <workItem from="1699260308829" duration="12200000" />
     </task>
+    <task id="LOCAL-00001" summary="add Tests and methods for password validation">
+      <option name="closed" value="true" />
+      <created>1699270936795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699270936795</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
